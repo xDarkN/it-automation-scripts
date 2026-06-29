@@ -1,2 +1,2 @@
 ﻿"ComputerName","DriveLetter","VolumeName","TotalGB","UsedGB","FreeGB","FreePercent","Status","WarningThreshold","CheckedAt"
-"TNF-LT-001","C:","","476","166.15","309.85","65.1","Healthy","15%","2026-06-29 11:43:54"
+"TNF-LT-001","C:","","476","166.15","309.85","65.1","Healthy","20%","2026-06-29 11:44:04"
