@@ -113,3 +113,39 @@ powershell -ExecutionPolicy Bypass -File .\scripts\file-server-permissions-audit
 ### Security note
 
 Before committing output files to a public repository, always sanitize sample data and remove real computer names, domains, usernames, internal paths or company information.
+
+## Inactive Local Users Report
+
+Script path:
+
+```powershell
+scripts/inactive-local-users-report.ps1
+```
+
+Run from the repository root:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\inactive-local-users-report.ps1
+```
+
+The script checks local Windows user accounts and exports a CSV report to:
+
+```text
+output-samples/inactive-local-users-report.csv
+```
+
+### Example with custom inactivity threshold
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\inactive-local-users-report.ps1 -InactiveDays 30
+```
+
+### Example with custom output path
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\inactive-local-users-report.ps1 -OutputPath ".\output-samples\custom-local-users-report.csv"
+```
+
+### Security note
+
+Before committing output files to a public repository, sanitize sample data and remove real usernames, computer names, domains or company information.
