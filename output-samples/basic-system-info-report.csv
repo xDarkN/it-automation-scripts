@@ -1,2 +1,2 @@
 ﻿"ComputerName","LoggedInUser","Domain","Manufacturer","Model","OSName","OSVersion","LastBootTime","UptimeDays","CPU","TotalRAMGB","IPAddresses","CheckedAt"
-"TNF-LT-001","nedri","Tnufa.Local","LENOVO","20Y0X10800","Microsoft Windows 11 Business","10.0.26200","2026-06-08 11:06:06","21.03","11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz","31.71","192.168.1.37, 192.168.1.31","2026-06-29 11:48:14"
+"DESKTOP-001","demo-user","example.local","LENOVO","20XXXXXX","Microsoft Windows 11 Business","10.0.26200","2026-06-08 11:06:06","21.03","11th Gen Intel(R) Core(TM) i7","31.71","192.168.1.10","2026-06-29 11:48:14"
