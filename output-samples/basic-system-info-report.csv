@@ -1,2 +1,2 @@
 ﻿"ComputerName","LoggedInUser","Domain","Manufacturer","Model","OSName","OSVersion","LastBootTime","UptimeDays","CPU","TotalRAMGB","IPAddresses","CheckedAt"
-"DESKTOP-001","demo-user","example.local","LENOVO","20XXXXXX","Microsoft Windows 11 Business","10.0.26200","2026-06-08 11:06:06","21.03","11th Gen Intel(R) Core(TM) i7","31.71","192.168.1.10","2026-06-29 11:48:14"
+"DEMO-PC","demo-user","example.local","LENOVO","20XXXXXX","Microsoft Windows 11 Business","11.0.00000","2026-06-08 11:06:06","21.03","11th Gen Intel(R) Core(TM) i7","31.71","172.16.1.10","2026-06-29 11:48:14"
