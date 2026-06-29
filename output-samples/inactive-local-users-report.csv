@@ -1,0 +1,4 @@
+﻿"ComputerName","UserName","FullName","Enabled","LastLogon","DaysSinceLastLogon","InactiveThreshold","InactivityStatus","CheckedAt"
+"DEMO-PC","demo-admin","Demo Admin","True","2026-06-20 09:15:00","9","90 days","Active","2026-06-29 12:10:00"
+"DEMO-PC","old-user","Old Demo User","False","2025-12-01 08:30:00","210","90 days","Inactive","2026-06-29 12:10:00"
+"DEMO-PC","service-demo","Service Demo Account","True","Never","N/A","90 days","Never Logged In","2026-06-29 12:10:00"
