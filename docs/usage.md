@@ -65,3 +65,51 @@ powershell -ExecutionPolicy Bypass -File .\scripts\disk-space-report.ps1 -Warnin
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\disk-space-report.ps1 -OutputPath ".\output-samples\custom-disk-report.csv"
 ```
+
+## File Server Permissions Audit
+
+Script path:
+
+```powershell
+scripts/file-server-permissions-audit.ps1
+```
+
+Run from the repository root:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\file-server-permissions-audit.ps1
+```
+
+The script audits NTFS permissions for the demo folder:
+
+```text
+demo-data/shared-folder
+```
+
+It exports a CSV report to:
+
+```text
+output-samples/file-server-permissions-audit.csv
+```
+
+### Example with recursive scan
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\file-server-permissions-audit.ps1 -Recurse
+```
+
+### Example with custom path
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\file-server-permissions-audit.ps1 -Path "C:\Demo\FileShare"
+```
+
+### Example with custom output path
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\file-server-permissions-audit.ps1 -OutputPath ".\output-samples\custom-permissions-audit.csv"
+```
+
+### Security note
+
+Before committing output files to a public repository, always sanitize sample data and remove real computer names, domains, usernames, internal paths or company information.
