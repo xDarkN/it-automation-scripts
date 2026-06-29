@@ -1,0 +1,8 @@
+﻿"ComputerName","FolderPath","IdentityReference","FileSystemRights","AccessControlType","IsInherited","InheritanceFlags","PropagationFlags","Owner","CheckedAt"
+"DEMO-PC","C:\Demo\FileShare","BUILTIN\Administrators","FullControl","Allow","True","ContainerInherit, ObjectInherit","None","EXAMPLE\nadav.demo","2026-06-29 11:57:16"
+"DEMO-PC","C:\Demo\FileShare","NT AUTHORITY\SYSTEM","FullControl","Allow","True","ContainerInherit, ObjectInherit","None","EXAMPLE\nadav.demo","2026-06-29 11:57:16"
+"DEMO-PC","C:\Demo\FileShare","BUILTIN\Users","ReadAndExecute, Synchronize","Allow","True","ContainerInherit, ObjectInherit","None","EXAMPLE\nadav.demo","2026-06-29 11:57:16"
+"DEMO-PC","C:\Demo\FileShare\Finance","EXAMPLE\Finance_Read","ReadAndExecute, Synchronize","Allow","False","ContainerInherit, ObjectInherit","None","EXAMPLE\nadav.demo","2026-06-29 11:57:16"
+"DEMO-PC","C:\Demo\FileShare\Finance","EXAMPLE\Finance_Modify","Modify, Synchronize","Allow","False","ContainerInherit, ObjectInherit","None","EXAMPLE\nadav.demo","2026-06-29 11:57:16"
+"DEMO-PC","C:\Demo\FileShare\HR","EXAMPLE\HR_Read","ReadAndExecute, Synchronize","Allow","False","ContainerInherit, ObjectInherit","None","EXAMPLE\nadav.demo","2026-06-29 11:57:16"
+"DEMO-PC","C:\Demo\FileShare\IT","EXAMPLE\IT_Admins","FullControl","Allow","False","ContainerInherit, ObjectInherit","None","EXAMPLE\nadav.demo","2026-06-29 11:57:16"
